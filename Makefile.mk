@@ -1,0 +1,12 @@
+CFLAGS = -Wall -g -Og 
+LDFLAGS =  
+
+OBJS = main.o
+
+all: a1 
+
+a1: $(OBJS)
+	$(CC) $(CFLAGS) -o a1 $(OBJS) $(LDFLAGS) -lreadline -ltermcap
+
+clean: 
+	rm -rf $(OBJS) a1 
