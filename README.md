@@ -3,7 +3,7 @@ A simple shell made for assignment 1 of CSC 360
 
 Intro
 -----------
-This Assignment was for CSC 360 at the University of Victoria in the Summer 2020 semester. 
+Acknowledgements: This Assignment was for CSC 360 at the University of Victoria in the Summer 2020 semester taught by Dr Jason Corless. 
 The purpose of this assignment was to learn the basics of how the user and the kernal interact through terminal. 
 The shell program used the functions: fork(), execvp(), getcwd, chdir(),waitpid(), SIGSTOP, SIGCONT among other similar functions. 
 
